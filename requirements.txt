@@ -1,1 +1,0 @@
-# RoadGuard AI uses Python standard library only for zero-friction local & Vercel runs.

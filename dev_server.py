@@ -8,9 +8,8 @@ import sys
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PUBLIC_DIR = os.path.join(BASE_DIR, "public")
-sys.path.insert(0, os.path.join(BASE_DIR, "api"))
 
-from reports import process_get, process_post  # noqa: E402
+from server_logic import process_get, process_post  # noqa: E402
 
 
 class LocalDevHandler(SimpleHTTPRequestHandler):
